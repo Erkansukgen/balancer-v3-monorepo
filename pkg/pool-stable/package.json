@@ -38,7 +38,7 @@
     "slither:triage": "yarn compile && bash -c 'source ../../slither/bin/activate && slither --compile-force-framework hardhat --ignore-compile . --config-file ../../.slither.config.json --triage-mode'"
   },
   "dependencies": {
-    "@balancer-labs/v3-interfaces": "workspace:*"
+    "@balancer-labs/v3-interfaces": "0.1.0"
   },
   "devDependencies": {
     "@balancer-labs/solidity-toolbox": "workspace:*",
